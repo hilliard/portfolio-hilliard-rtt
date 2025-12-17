@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 test('resume links exist and have correct targets', async ({ page }) => {
-  await page.goto('/contact')
+  await page.goto('/contact.html')
 
   const htmlResume = page.locator('a[href="/resume/hilliard-m-scott-resume-2025.html"]')
   await expect(htmlResume).toHaveCount(1)

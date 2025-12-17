@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 test('contact form can be filled and submit button becomes enabled', async ({ page }) => {
-  await page.goto('/contact')
+  await page.goto('/contact.html')
 
   await page.fill('input[name="name"]', 'Playwright Tester')
   await page.fill('input[name="email"]', 'test@example.com')

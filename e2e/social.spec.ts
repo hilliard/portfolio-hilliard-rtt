@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test'
 
 test('social links have valid hrefs', async ({ page }) => {
-  await page.goto('/contact')
+  await page.goto('/contact.html')
 
   const github = page.locator('a[href^="https://github.com"]')
   await expect(github.first()).toBeVisible()
