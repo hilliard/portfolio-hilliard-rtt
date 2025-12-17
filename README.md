@@ -2,6 +2,8 @@
 
 ![E2E Tests](https://github.com/hilliard/portfolio-hilliard-rtt/actions/workflows/e2e.yml/badge.svg)
 
+E2E HTML report (published after successful CI runs): https://hilliard.github.io/portfolio-hilliard-rtt/playwright-report/index.html
+
 This is a personal portfolio website built with Next.js and TypeScript. It showcases projects, a bio/about section, services, and a contact page. The site uses the `src` directory for app routes and components, and assets are stored in the `public` folder.
 
 **Highlights**
