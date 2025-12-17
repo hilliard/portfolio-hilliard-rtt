@@ -7,6 +7,9 @@ export default defineConfig({
     headless: true,
     baseURL: 'http://localhost:3000',
     trace: 'on-first-retry',
+    // capture screenshots/videos on failure for CI debugging
+    screenshot: 'only-on-failure',
+    video: 'retain-on-failure',
   },
   projects: [
     {

@@ -1,5 +1,7 @@
 # Portfolio - Hilliard M. Scott
 
+![E2E Tests](https://github.com/hilliard/portfolio-hilliard-rtt/actions/workflows/e2e.yml/badge.svg)
+
 This is a personal portfolio website built with Next.js and TypeScript. It showcases projects, a bio/about section, services, and a contact page. The site uses the `src` directory for app routes and components, and assets are stored in the `public` folder.
 
 **Highlights**
