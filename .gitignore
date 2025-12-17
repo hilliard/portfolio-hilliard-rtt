@@ -23,6 +23,7 @@
 # misc
 .DS_Store
 *.pem
+codepilot*.txt
 
 # debug
 npm-debug.log*
