@@ -29,9 +29,6 @@ jobs:
       - name: Build static site
         run: npm run build
 
-      - name: Serve static output
-        run: npx http-server out -p 3000 &
-
       - name: Install Playwright browsers
         run: npx playwright install --with-deps
 
