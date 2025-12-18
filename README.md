@@ -171,3 +171,44 @@ Notes:
 ## Static export note
 
 Recent Next.js versions (App Router) prefer using `output: 'export'` in `next.config.js` to produce a static `out/` folder during `next build`. The older `next export` CLI command is deprecated and may fail. This repo was updated so that `next build` creates the `out/` directory and the CI workflow uploads it for GitHub Pages; the `export` npm script was replaced with a harmless message to avoid running the deprecated command.
+
+## Testing
+
+- Unit/a11y: Vitest runs in jsdom with Testing Library. E2E uses Playwright.
+- Separation: Vitest is scoped to `src/**` tests; Playwright handles browser flows.
+
+Run unit tests once:
+
+```bash
+npm run test -- --run
+```
+
+Watch unit tests (dev):
+
+```bash
+npm run test:watch
+```
+
+Generate coverage:
+
+```bash
+npm run test:coverage
+```
+
+Run only a11y tests:
+
+```bash
+npx vitest run "src/__tests__/a11y/**"
+```
+
+Run E2E tests (requires a build):
+
+```bash
+npm run build
+npm run e2e
+```
+
+CI variants:
+
+- Unit/a11y: part of the `unit-tests` job in `.github/workflows/ci.yml`.
+- E2E: `E2E Tests` workflow publishes the Playwright HTML report to Pages.
