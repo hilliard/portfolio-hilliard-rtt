@@ -208,6 +208,12 @@ npm run build
 npm run e2e
 ```
 
+Open the last Playwright HTML report locally:
+
+```bash
+npm run e2e:report
+```
+
 CI variants:
 
 - Unit/a11y: part of the `unit-tests` job in `.github/workflows/ci.yml`.
