@@ -24,7 +24,7 @@ jobs:
 
       - name: Install dependencies
         # use legacy peer deps in CI to avoid peer resolution conflicts with React 19
-        run: npm install --legacy-peer-deps
+        run: npm ci --legacy-peer-deps
 
       - name: Build static site
         run: npm run build

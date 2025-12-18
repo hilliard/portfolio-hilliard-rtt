@@ -1,5 +1,10 @@
 name: CI
 
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
 on:
   push:
     branches: [main]
@@ -106,12 +111,12 @@ jobs:
         run: npm run build
 
       - name: Upload Pages Artifact
-        uses: actions/upload-pages-artifact@v1
+        uses: actions/upload-pages-artifact@v3
         with:
           path: out
 
       - name: Deploy to GitHub Pages
-        uses: actions/deploy-pages@v1
+        uses: actions/deploy-pages@v4
 
   a11y:
     name: Accessibility checks
