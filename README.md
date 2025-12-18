@@ -3,7 +3,8 @@
 [![CI](https://github.com/hilliard/portfolio-hilliard-rtt/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/hilliard/portfolio-hilliard-rtt/actions/workflows/ci.yml)
 [![E2E Tests](https://github.com/hilliard/portfolio-hilliard-rtt/actions/workflows/e2e.yml/badge.svg?branch=main)](https://github.com/hilliard/portfolio-hilliard-rtt/actions/workflows/e2e.yml)
 
-Latest Playwright HTML report: https://hilliard.github.io/portfolio-hilliard-rtt/
+Latest Playwright HTML report (from main CI): https://hilliard.github.io/portfolio-hilliard-rtt/
+Direct report index (fallback): https://hilliard.github.io/portfolio-hilliard-rtt/index.html
 
 This is a personal portfolio website built with Next.js and TypeScript. It showcases projects, a bio/about section, services, and a contact page. The site uses the `src` directory for app routes and components, and assets are stored in the `public` folder.
 
