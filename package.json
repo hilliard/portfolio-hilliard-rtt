@@ -9,9 +9,8 @@
     "test": "vitest",
     "test:watch": "vitest --watch",
     "test:coverage": "vitest --coverage",
-    "start": "next start",
-    "lint": "eslint"
-    ,
+    "start": "npx serve@latest out",
+    "lint": "eslint",
     "e2e": "playwright test",
     "e2e:ci": "playwright test --reporter=github",
     "e2e:report": "playwright show-report"
@@ -23,6 +22,7 @@
     "react-icons": "^5.5.0"
   },
   "devDependencies": {
+    "@playwright/test": "^1.57.0",
     "@tailwindcss/postcss": "^4",
     "@testing-library/jest-dom": "^6.0.0",
     "@testing-library/react": "^14.0.0",
@@ -30,15 +30,14 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
+    "baseline-browser-mapping": "^2.10.0",
     "eslint": "^9",
     "eslint-config-next": "16.0.7",
     "jest-axe": "^10.0.0",
     "jsdom": "^27.3.0",
+    "playwright": "^1.38.0",
     "tailwindcss": "^4",
     "typescript": "^5",
     "vitest": "^1.6.1"
-    ,
-    "playwright": "^1.38.0",
-    "@playwright/test": "^1.57.0"
   }
 }

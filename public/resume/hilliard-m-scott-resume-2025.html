@@ -34,6 +34,17 @@
             color: var(--clr-accent);
             margin-bottom: 0.5em;
         }
+        
+        /* Footer styles */
+        .footer__link:hover,
+        .social-list__link:hover {
+            opacity: 0.7;
+            text-decoration: underline;
+        }
+        
+        .social-list__link {
+            transition: opacity 0.2s ease-in-out;
+        }
     </style>
 
     
@@ -51,7 +62,7 @@
         <!-- Introduction -->
         <section class="intro" id="home">
             <h2 class="section__title section__title--intro">
-                Hilliard M. Scott III<br><br><small>Email:hscott@gmail.com</small><br><small>Phone:720-244-8559</small>
+                Hilliard M. Scott III<br><br><small>Email:hilliards@gmail.com</small><br><small>Phone:720-244-8559</small>
             </h2>
             <!--<p class="section__subtitle section__subtitle--intro">Experience</p> -->
             <img src="../img/Me-In-Vancouver-Cartoonish-243.png" alt="Hilliard Scott in Vancouver with Pixelated Whale" class="intro__img">
@@ -272,10 +283,16 @@
                     <h3>University of Colorado,    </h3>
                     <p class="job-company">Assistant Coach/Goalie Coach - CU Women's Team - NCAA Nationals </p>
                 </div>
+
+                <div class="job">
+                    <h3>USA Hockey,    </h3>
+                    <p class="job-company">Master - Level 5</p> 
+                    <p class="job-company">020500370 - Master Thesis: My Stance On Goalies</p>
+                </div>
                     
                 <div class="job">
                     <h3> Golden High School,	Golden, CO </h3>
-                    <p class="job-company">Assistant/Goalie Coach - Varsity - State Chanpion.</p>
+                    <p class="job-company">Assistant/Goalie Coach - Varsity - State Champion.</p>
                 </div>
 
                 <div class="job">
@@ -313,42 +330,44 @@
 
     </div>
 
-        <!-- Footer -->
-        <footer class="footer ">
-
-            <a href="mailto:hilliards@gmail.com" class="footer__link">hilliards@gmail.com</a>
-            <ul class="social-list">
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://github.com">
-                        <i class="fab fa-github"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="http://linkedin.com">
-                        <i class="fab fa-linkedin"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://codepen.io">
-                        <i class="fab fa-codepen"></i>
-                    </a>
-                </li>
-                <li class="social-list__item">
-                    <a class="social-list__link" href="http://facebook.com">
-                        <i class="fab fa-facebook"></i>
-                    </a>
-                </li>
-
-                <li class="social-list__item">
-                    <a class="social-list__link" href="https://twitter.com">
-                        <i class="fab fa-x-twitter"></i>
-                    </a>
-                </li>
-            </ul>
-            <div>
-                <a href="../contact-form.html" class="footer__link">Contact</a>
-            </div>
-        </footer>
+    <!-- Footer -->
+    <footer class="footer" style="background-color: #111; color: #16bbe0; text-align: center; padding: 2.5em 0; font-size: 1.25rem; margin-top: 3em;">
+        <a href="mailto:hilliards@gmail.com" class="footer__link" style="font-weight: bold; color: #16bbe0; text-decoration: none;">
+            hilliards@gmail.com
+        </a>
+        <ul class="social-list" style="list-style: none; display: flex; justify-content: center; margin: 2em 0 0; padding: 0;">
+            <li class="social-list__item" style="margin: 0 0.5em;">
+                <a class="social-list__link" href="https://github.com" target="_blank" rel="noopener noreferrer" style="padding: 0.5em; color: #16bbe0; text-decoration: none;">
+                    <i class="fab fa-github"></i>
+                </a>
+            </li>
+            <li class="social-list__item" style="margin: 0 0.5em;">
+                <a class="social-list__link" href="http://linkedin.com" target="_blank" rel="noopener noreferrer" style="padding: 0.5em; color: #16bbe0; text-decoration: none;">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+            </li>
+            <li class="social-list__item" style="margin: 0 0.5em;">
+                <a class="social-list__link" href="https://codepen.io" target="_blank" rel="noopener noreferrer" style="padding: 0.5em; color: #16bbe0; text-decoration: none;">
+                    <i class="fab fa-codepen"></i>
+                </a>
+            </li>
+            <li class="social-list__item" style="margin: 0 0.5em;">
+                <a class="social-list__link" href="http://facebook.com" target="_blank" rel="noopener noreferrer" style="padding: 0.5em; color: #16bbe0; text-decoration: none;">
+                    <i class="fab fa-facebook"></i>
+                </a>
+            </li>
+            <li class="social-list__item" style="margin: 0 0.5em;">
+                <a class="social-list__link" href="https://twitter.com" target="_blank" rel="noopener noreferrer" style="padding: 0.5em; color: #16bbe0; text-decoration: none;">
+                    <i class="fab fa-x-twitter"></i>
+                </a>
+            </li>
+        </ul>
+        <div style="margin-top: 2em;">
+            <a href="../contact-form.html" class="footer__link" style="font-weight: bold; color: #16bbe0; text-decoration: none;">
+                Contact
+            </a>
+        </div>
+    </footer>
 
 </body>
 </html>

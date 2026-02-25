@@ -219,3 +219,10 @@ CI variants:
 
 - Unit/a11y: part of the `unit-tests` job in `.github/workflows/ci.yml`.
 - E2E: `E2E Tests` workflow publishes the Playwright HTML report to Pages.
+
+Now you can:
+
+Run npm run build
+to generate the static site in the out directory
+Run npm start
+to serve the static site locally
