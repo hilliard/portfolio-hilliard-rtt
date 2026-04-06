@@ -51,19 +51,19 @@ export const workItems: PortfolioItem[] = [
     contentTitle: "Technical Consulting",
     contentImage: "/img/Technical-Advising-3096.jpg",
     content: [
-      "Hilliard is the founder of GoldTending Inc. and is currently serving as Chief Technical Advisor. He is also an acting Advisor to The University of Colorado Colorado Spring Artificial Intelligence board",
+      "I am the founder of GoldTending Inc. and am currently serving as Chief Technical Advisor. I am also an acting Advisor to The University of Colorado Colorado Springs Artificial Intelligence board",
       "GoldTending Inc, was founded as both a technology consulting firm and as an entity focused on developing a platform for aspiring young entrepreneurs."
     ],
     technologies: "Javascript, NextJS, Firebase, Supabase, OpenAI, Node.js, React, TypeScript, Vue.js",
-    tools: "ViTest, Jasmin, Anthropic, Netlify, Cloudflare, Anthropic, Tailwind CSS, Git, GitHub"
+    tools: "ViTest, Jasmine, Anthropic, Netlify, Cloudflare, Anthropic, Tailwind CSS, Git, GitHub"
   },
   {
     id: "03",
     title: "Architect",
-    subtitle: "SketchUp Extensiblity",
+    subtitle: "SketchUp Extensibility",
     jobTitle: "Sr. QA Engineer",
     role: "Team Lead",
-    company: "SketchUp Extensiblity",
+    company: "SketchUp Extensibility",
     image: "/img/3D-Architect-draw-480.jpg",
     introImage: "/img/SketchUp-tablet-480.jpg",
     link: "/portfolio/sketchup",
@@ -97,7 +97,7 @@ export const workItems: PortfolioItem[] = [
       "This role required strong leadership skills to mentor and develop team members, excellent communication to collaborate cross-functionally with product and engineering teams, and a deep understanding of e-commerce business flows, affiliate marketing models, and performance testing to ensure seamless user experiences and transactional integrity."
     ],
     technologies: "Ruby, Cucumber, Nutch, Java, Javascript, Apache Tomcat, AWS, Liquibase, Docker",
-    tools: "Atlassian Suite, InjelliJ, NetNeans, Cypress, Sauce Labs, Postman, Doxygen, Zeus/Azul, Git, GitHub, BitBucket",
+    tools: "Atlassian Suite, IntelliJ, NetBeans, Cypress, Sauce Labs, Postman, Doxygen, Zeus/Azul, Git, GitHub, BitBucket",
     additionalRoles: "Agile Scrum Master, Team Lead, Buildmeister"
   },
   {
@@ -114,8 +114,8 @@ export const workItems: PortfolioItem[] = [
     contentTitle: "Continuous Data Protection",
     contentImage: "/img/Rebit-cloud-3096.jpg",
     content: [
-      "As Director of IT I lead our information technology initiatives. In this pivotal role, I was responsible for overseeing all aspects of our IT infrastructure, systems, and operations, ensuring their reliability, security, and scalability to support our continuous data protection backup software and overall business objectives. This included managing our network architecture, server environments (on-premise and cloud-based), cybersecurity protocols, data management, and the suite of applications used by our internal teams. I implemented industry standard best practices, and had a proven track record in strategic IT planning, budget management, and team leadership.",
-      "As Director of Quality I was responsible for defining, implementing, and overseeing the quality strategy across all stages of our software development lifecycle for our continuous data protection backup solutions. This includes establishing robust QA processes, leading test automation efforts, managing quality metrics, and ensuring the highest standards of product reliability, performance, and user experience. Delivered software to six major customers off of a single code base, No Customer specific branches"
+      "As Director of IT I led our information technology initiatives. In this pivotal role, I was responsible for overseeing all aspects of our IT infrastructure, systems, and operations, ensuring their reliability, security, and scalability to support our continuous data protection backup software and overall business objectives. This included managing our network architecture, server environments (on-premise and cloud-based), cybersecurity protocols, data management, and the suite of applications used by our internal teams. I implemented industry standard best practices, and had a proven track record in strategic IT planning, budget management, and team leadership.",
+      "As Director of Quality I was responsible for defining, implementing, and overseeing the quality strategy across all stages of our software development lifecycle for our continuous data protection backup solutions. This included establishing robust QA processes, leading test automation efforts, managing quality metrics, and ensuring the highest standards of product reliability, performance, and user experience. I delivered software to six major customers off of a single code base, with no customer-specific branches."
     ],
     technologies: "Ruby, Cucumber, C++, Delphi, PostgreSQL, Access, Oracle, MSSQL, Oracle Business 1",
     tools: "Atlassian Suite, Git, GitHub, Cypress, Sauce Labs, Postman, Agile Scrum Master, MercurialHG",
@@ -125,10 +125,10 @@ export const workItems: PortfolioItem[] = [
   {
     id: "06",
     title: "World Bank",
-    subtitle: "Nile Basin DSS: Adis Ababa, Ethiopa",
+    subtitle: "Nile Basin DSS: Addis Ababa, Ethiopia",
     jobTitle: "System Architect",
     role: "Database Consultant",
-    company: "Nile Basin DSS: Adis Ababa, Ethiopa",
+    company: "Nile Basin DSS: Addis Ababa, Ethiopia",
     image: "/img/Adis-Ababa-City-480.jpg",
     introImage: "/img/Me-In-Ethiopia-480.jpg",
     link: "/portfolio/worldbank",
@@ -158,7 +158,7 @@ export const workItems: PortfolioItem[] = [
     contentImage: "/img/Storage-Tape-Drive-Blue-Library-3096.jpg",
     content: [
       "Benchmark Tape Systems a Boulder, Colorado-based enterprise, that developed tape drives products based on DLT technology. The team behind the new company includes the celebrated Jesse Aweida, founder and former COB and president of StorageTek and Lew Frauenfelder, a veteran of STK, Aspen and Datasonix,",
-      "As Director of Software Configuration Management (SCM) and Build Meister, I led efforts in establishing and maintaining robust, efficient, and reliable software configuration and build processes. In this critical leadership role, I was responsible for defining and implementing SCM strategies, managing source code control systems, optimizing continuous integration/continuous delivery (CI/CD) pipelines, and ensuring repeatable and high-quality software builds for our cutomers."
+      "As Director of Software Configuration Management (SCM) and Build Meister, I led efforts in establishing and maintaining robust, efficient, and reliable software configuration and build processes. In this critical leadership role, I was responsible for defining and implementing SCM strategies, managing source code control systems, optimizing continuous integration/continuous delivery (CI/CD) pipelines, and ensuring repeatable and high-quality software builds for our customers."
     ],
     technologies: "MS Server, MSSQL, PostgreSQL, OBDR, Unix, Linux,C++, .Net",
     tools: "TrackStar, Visual Studio, TortoiseSVN, Windows Hardware Lab Kit (HLK), SignTool, WHQL (Windows Hardware Quality Labs)",
@@ -201,10 +201,10 @@ export const workItems: PortfolioItem[] = [
     contentTitle: "Storage for Businesses and organizations",
     contentImage: "/img/Storage-Tape-Drive-Blue-Library-3096.jpg",
     content: [
-      "StorageTek a Boulder, CO-based enterprise, that developed tape drives products based on DLT technology. The team behind the company included the celebrated Jesse Aweida, founder and former COB and president of StorageTek and Lew Frauenfelder, a veteran of STK, Aspen and Datasonix. As Director of Software Configuration Management (SCM) and Build Meister, I led efforts in establishing and maintaining robust, efficient, and reliable software configuration and build processes. In this critical leadership role, I was responsible for defining and implementing SCM strategies, managing source code control systems, optimizing continuous integration/continuous delivery (CI/CD) pipelines, and ensuring repeatable and high-quality software builds for our cutomers.",
+      "StorageTek a Boulder, CO-based enterprise, that developed tape drives products based on DLT technology. The team behind the company included the celebrated Jesse Aweida, founder and former COB and president of StorageTek and Lew Frauenfelder, a veteran of STK, Aspen and Datasonix. As Director of Software Configuration Management (SCM) and Build Meister, I led efforts in establishing and maintaining robust, efficient, and reliable software configuration and build processes. In this critical leadership role, I was responsible for defining and implementing SCM strategies, managing source code control systems, optimizing continuous integration/continuous delivery (CI/CD) pipelines, and ensuring repeatable and high-quality software builds for our customers.",
       "StorageTek, founded in 1969, was a global company that developed and manufactured data storage hardware and software."
     ],
-    technologies: "MS Server, MSSQL, LSTC2VM, HPu, Unix, Linux C++, .Net, ASP, ASP.NET, PHP, C#, Perl and VBScrip",
+    technologies: "MS Server, MSSQL, LSTC2VM, HPu, Unix, Linux C++, .Net, ASP, ASP.NET, PHP, C#, Perl and VBScript",
     tools: "TrackStar, Atria, SourceSafe, Visual Studio, Windows Hardware Lab Kit (HLK), SignTool, WHQL (Windows Hardware Quality Labs)",
     additionalRoles: "Agile Scrum Master, Team Lead",
     awards: "Technical Innovator of The Year. Malcom Baldridge Quality Award",
@@ -231,7 +231,7 @@ export const workItems: PortfolioItem[] = [
       "Familiarity with power requirements for secure communications and sensitive electronic equipment.",
       "Proven ability to mentor junior engineers and lead technical projects."
     ],
-    technologies: "C, C++, i386 Assenbly, MIL-STD-1495",
+    technologies: "C, C++, i386 Assembly, MIL-STD-1495",
     tools: "Aztek Compiler, AT&T Compiler",
     additionalRoles: "NASA Qualified Assembler, Quality Control"
   },
@@ -249,7 +249,7 @@ export const workItems: PortfolioItem[] = [
     contentTitle: "Site Engineer/Program Director",
     contentImage: "/img/KGNU-On-Air-3096.png",
     content: [
-      "At KGNU Community Radio I was able to fill the unique, combined role of Page Engineer & Program Director. In this leadership position responsible for both the technical integrity of our broadcast signal and the creative vision of the on-air programming.",
+      "At KGNU Community Radio I was able to fill the unique, combined role of Page Engineer & Program Director. In this leadership position, I was responsible for both the technical integrity of our broadcast signal and the creative vision of the on-air programming.",
       "I acted as an advocate for independent media and possessed a blend of technical expertise and a strong sense of community-focused content curation. I was responsible for ensuring KGNU’s broadcast was reliable and high-quality while also guiding the volunteer programmers to create content that fulfilled the mission to educate, entertain, and serve as a platform for underrepresented voices and music."
     ],
     skills: [
@@ -269,7 +269,7 @@ export const playItems: PortfolioItem[] = [
     id: "01",
     title: "Silver Stick Championship",
     subtitle: "Boulder, Hyland Hills, Golden HS, CU Women",
-    jobTitle: "Goalie/Assitant Coach",
+    jobTitle: "Goalie/Assistant Coach",
     role: "USA Hockey Level 5",
     company: "Boulder, Hyland Hills, Golden HS, CU Women",
     image: "/img/Silver-Stick-group-480.jpg",
@@ -287,7 +287,7 @@ export const playItems: PortfolioItem[] = [
     id: "02",
     title: "Bantam B State Championship",
     subtitle: "Boulder, Hyland Hills, Golden HS, CU Women",
-    jobTitle: "Goalie/Assitant Coach",
+    jobTitle: "Goalie/Assistant Coach",
     role: "USA Hockey Level 5",
     company: "Boulder, Hyland Hills, Golden HS, CU Women",
     image: "/img/Bantam-b-480.jpg",
@@ -315,8 +315,8 @@ export const playItems: PortfolioItem[] = [
     contentTitle: "Continuous Groove",
     contentImage: "/img/Concert-Stage-3096.jpg",
     content: [
-      "I have been playing into music playing bass since I was in elementary school. I started on trumpet but while playing James Brown, Sly Stone, The Jackson 5 and Charles Wright & The Watts 103rd Street Rhythm Band, my attention turned to the bass guitar. In the 70’s I was the technical engineer for KGNU Boulder while I was studying at CU. It was difficult to get students/on air talent to show up for their shows and since I was already there, they gave me a slot. My show was called ‘Eclipse – The Shedding of a Blacker Light’. I played jazz, pop R and B, but mostly funk. Cameo, Brothers Johnson, Larry Graham, Lakeside, ConFunkShun, Marcus Miller etc. Eclipse became the first on-air presence for many of these performers. One night Warner Brothers sends me the album “For You”. The record company always suggested which song to play, but I chose “Soft & Wet”. In 1978 the song was considered too racy for on air play and the FCC ordered Prince and I to defend the song in a hearing. We success fully justified it as ‘innuendo’.",
-      "In 1980, Stevie Wonder comes to Boulder for the “Hotter Than July” tour. While warming up in the Gren Room, we are jamming on “All I Do“ (and Master Blaster of course). Stevie says “Hey why don’t you come and tour with us, Nathan Watts is gonna take over a project called WonderLove. I hemmed and hawed and said no because I didn’t think I was ‘good enough’. I was 19 years old. Good thing I didn’t cuz WonderLove did not fully materialize and of course, Nate came back. Twenty years later while working on test algorithms for FPGA microchips, (in my day job, I designed and built power systems for the Space Shuttle and nuclear submarines (and black ops helicopters, but I can’t say that))… it occurred to me that if Stevie Wonder asks you to play…You’re good enough.",
+      "I have been playing into music playing bass since I was in elementary school. I started on trumpet but while playing James Brown, Sly Stone, The Jackson 5 and Charles Wright & The Watts 103rd Street Rhythm Band, my attention turned to the bass guitar. In the 70’s I was the technical engineer for KGNU Boulder while I was studying at CU. It was difficult to get students/on air talent to show up for their shows and since I was already there, they gave me a slot. My show was called ‘Eclipse – The Shedding of a Blacker Light’. I played jazz, pop R and B, but mostly funk. Cameo, Brothers Johnson, Larry Graham, Lakeside, ConFunkShun, Marcus Miller etc. Eclipse became the first on-air presence for many of these performers. One night Warner Brothers sends me the album “For You”. The record company always suggested which song to play, but I chose “Soft & Wet”. In 1978 the song was considered too racy for on air play and the FCC ordered Prince and I to defend the song in a hearing. We successfully justified it as ‘innuendo’.",
+      "In 1980, Stevie Wonder comes to Boulder for the “Hotter Than July” tour. While warming up in the Green Room, we are jamming on “All I Do“ (and Master Blaster of course). Stevie says “Hey why don’t you come and tour with us, Nathan Watts is gonna take over a project called WonderLove. I hemmed and hawed and said no because I didn’t think I was ‘good enough’. I was 19 years old. Good thing I didn’t cuz WonderLove did not fully materialize and of course, Nate came back. Twenty years later while working on test algorithms for FPGA microchips, (in my day job, I designed and built power systems for the Space Shuttle and nuclear submarines (and black ops helicopters, but I can’t say that))… it occurred to me that if Stevie Wonder asks you to play…You’re good enough.",
       "I’m five years old, living on an army base in Ft. Huachuca Arizona. Next door is this kid who’s always in the backyard playing the saxophone. I grab the Quaker Oats oatmeal box and spoons and accompany him on drums. The neighbors ‘tolerate’ us. Fast forward a few years and I’ve torn my father’s hand built stereo apart and connected my $50 bass to it. As my father prepares to give me “what for”.. he sees the “Album Open Our Eyes” leaned against the speaker and he says, “That’s that boy”. I say what boy?, he says “Andrew Woolfolk” (Of Earth, Wind and Fire) the neighbor you used to jam with. We drive to his house in Denver and just ‘hang out’."
     ]
   },
@@ -334,8 +334,8 @@ export const playItems: PortfolioItem[] = [
     contentTitle: "Continuous Groove",
     contentImage: "/img/Concert-Stage-3096.jpg",
     content: [
-      "I have been playing into music playing bass since I was in elementary school. I started on trumpet but while playing James Brown, Sly Stone, The Jackson 5 and Charles Wright & The Watts 103rd Street Rhythm Band, my attention turned to the bass guitar. In the 70’s I was the technical engineer for KGNU Boulder while I was studying at CU. It was difficult to get students/on air talent to show up for their shows and since I was already there, they gave me a slot. My show was called ‘Eclipse – The Shedding of a Blacker Light’. I played jazz, pop R and B, but mostly funk. Cameo, Brothers Johnson, Larry Graham, Lakeside, ConFunkShun, Marcus Miller etc. Eclipse became the first on-air presence for many of these performers. One night Warner Brothers sends me the album “For You”. The record company always suggested which song to play, but I chose “Soft & Wet”. In 1978 the song was considered too racy for on air play and the FCC ordered Prince and I to defend the song in a hearing. We success fully justified it as ‘innuendo’.",
-      "In 1980, Stevie Wonder comes to Boulder for the “Hotter Than July” tour. While warming up in the Gren Room, we are jamming on “All I Do“ (and Master Blaster of course). Stevie says “Hey why don’t you come and tour with us, Nathan Watts is gonna take over a project called WonderLove. I hemmed and hawed and said no because I didn’t think I was ‘good enough’. I was 19 years old. Good thing I didn’t cuz WonderLove did not fully materialize and of course, Nate came back. Twenty years later while working on test algorithms for FPGA microchips, (in my day job, I designed and built power systems for the Space Shuttle and nuclear submarines (and black ops helicopters, but I can’t say that))… it occurred to me that if Stevie Wonder asks you to play…You’re good enough.",
+      "I have been playing into music playing bass since I was in elementary school. I started on trumpet but while playing James Brown, Sly Stone, The Jackson 5 and Charles Wright & The Watts 103rd Street Rhythm Band, my attention turned to the bass guitar. In the 70’s I was the technical engineer for KGNU Boulder while I was studying at CU. It was difficult to get students/on air talent to show up for their shows and since I was already there, they gave me a slot. My show was called ‘Eclipse – The Shedding of a Blacker Light’. I played jazz, pop R and B, but mostly funk. Cameo, Brothers Johnson, Larry Graham, Lakeside, ConFunkShun, Marcus Miller etc. Eclipse became the first on-air presence for many of these performers. One night Warner Brothers sends me the album “For You”. The record company always suggested which song to play, but I chose “Soft & Wet”. In 1978 the song was considered too racy for on air play and the FCC ordered Prince and I to defend the song in a hearing. We successfully justified it as ‘innuendo’.",
+      "In 1980, Stevie Wonder comes to Boulder for the “Hotter Than July” tour. While warming up in the Green Room, we are jamming on “All I Do“ (and Master Blaster of course). Stevie says “Hey why don’t you come and tour with us, Nathan Watts is gonna take over a project called WonderLove. I hemmed and hawed and said no because I didn’t think I was ‘good enough’. I was 19 years old. Good thing I didn’t cuz WonderLove did not fully materialize and of course, Nate came back. Twenty years later while working on test algorithms for FPGA microchips, (in my day job, I designed and built power systems for the Space Shuttle and nuclear submarines (and black ops helicopters, but I can’t say that))… it occurred to me that if Stevie Wonder asks you to play…You’re good enough.",
       "I’m five years old, living on an army base in Ft. Huachuca Arizona. Next door is this kid who’s always in the backyard playing the saxophone. I grab the Quaker Oats oatmeal box and spoons and accompany him on drums. The neighbors ‘tolerate’ us. Fast forward a few years and I’ve torn my father’s hand built stereo apart and connected my $50 bass to it. As my father prepares to give me “what for”.. he sees the “Album Open Our Eyes” leaned against the speaker and he says, “That’s that boy”. I say what boy?, he says “Andrew Woolfolk” (Of Earth, Wind and Fire) the neighbor you used to jam with. We drive to his house in Denver and just ‘hang out’."
     ]
   },
@@ -350,7 +350,7 @@ export const playItems: PortfolioItem[] = [
     contentTitle: "Site Engineer/Program Director",
     contentImage: "/img/KGNU-On-Air-3096.png",
     content: [
-      "At KGNU Community Radio I was able to fill the unique, combined role of Page Engineer & Program Director. In this leadership position responsible for both the technical integrity of our broadcast signal and the creative vision of the on-air programming.",
+      "At KGNU Community Radio I was able to fill the unique, combined role of Page Engineer & Program Director. In this leadership position, I was responsible for both the technical integrity of our broadcast signal and the creative vision of the on-air programming.",
       "I acted as an advocate for independent media and possessed a blend of technical expertise and a strong sense of community-focused content curation. I was responsible for ensuring KGNU’s broadcast was reliable and high-quality while also guiding the volunteer programmers to create content that fulfilled the mission to educate, entertain, and serve as a platform for underrepresented voices and music."
     ],
     skills: [
