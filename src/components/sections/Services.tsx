@@ -37,9 +37,15 @@ export default function Services() {
         </a>
         <a
           href="#play"
-          className="btn inline-block py-2 px-10 bg-accent text-dark no-underline cursor-pointer text-sm uppercase tracking-[2px] font-black transition-transform duration-200 ease-in-out hover:scale-110"
+          className="btn inline-block py-2 px-10 bg-accent text-dark no-underline cursor-pointer text-sm uppercase tracking-[2px] font-black transition-transform duration-200 ease-in-out hover:scale-110 mr-4"
         >
           My Play
+        </a>
+        <a
+          href="#certs"
+          className="btn inline-block py-2 px-10 bg-accent text-dark no-underline cursor-pointer text-sm uppercase tracking-[2px] font-black transition-transform duration-200 ease-in-out hover:scale-110"
+        >
+          My Certifications
         </a>
       </div>
     </section>

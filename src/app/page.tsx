@@ -5,6 +5,7 @@ import Services from "@/components/sections/Services";
 import About from "@/components/sections/About";
 import PortfolioGrid from "@/components/sections/PortfolioGrid";
 import { workItems, playItems } from "@/data/portfolio";
+import { certItems } from "@/data/certifications";
 
 export default function Home() {
   return (
@@ -25,6 +26,12 @@ export default function Home() {
           subtitle="In My Spare Time"
           id="play"
           items={playItems}
+        />
+        <PortfolioGrid
+          title="My Certifications"
+          subtitle="Classes I Recently Completed"
+          id="certs"
+          items={certItems}
         />
       </main>
       <Footer />
