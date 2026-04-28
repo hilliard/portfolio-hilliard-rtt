@@ -16,7 +16,7 @@
     "e2e:report": "playwright show-report"
   },
   "dependencies": {
-    "next": "16.0.7",
+    "next": "^16.2.4",
     "react": "19.2.0",
     "react-dom": "19.2.0",
     "react-icons": "^5.5.0"
@@ -30,7 +30,7 @@
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",
-    "baseline-browser-mapping": "^2.10.23",
+    "baseline-browser-mapping": "^2.10.24",
     "eslint": "^9",
     "eslint-config-next": "16.0.7",
     "jest-axe": "^10.0.0",
@@ -38,6 +38,6 @@
     "playwright": "^1.38.0",
     "tailwindcss": "^4",
     "typescript": "^5",
-    "vitest": "^1.6.1"
+    "vitest": "^4.1.5"
   }
 }

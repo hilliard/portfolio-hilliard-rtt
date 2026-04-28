@@ -9,8 +9,12 @@ import { vi } from 'vitest'
 // Mock next/image to render a standard <img> for unit tests
 vi.mock('next/image', () => {
   const Img = forwardRef<HTMLImageElement, ImgHTMLAttributes<HTMLImageElement> & { priority?: boolean }>(
-    ({ priority, ...props }, ref) => React.createElement('img', { ref, ...props })
+    ({ priority: _priority, ...props }, ref) => React.createElement('img', { ref, ...props })
   )
+  
+  // Fixes the missing display name error
+  Img.displayName = 'MockNextImage' 
+  
   return { default: Img }
 })
 
@@ -19,5 +23,9 @@ vi.mock('next/link', () => {
   const Link = forwardRef<HTMLAnchorElement, PropsWithChildren<AnchorHTMLAttributes<HTMLAnchorElement> & { href: string }>>(
     ({ href, children, ...rest }, ref) => React.createElement('a', { ref, href, ...rest }, children)
   )
+  
+  // Fixes the missing display name error
+  Link.displayName = 'MockNextLink' 
+
   return { default: Link }
 })

@@ -30,7 +30,7 @@ declare module 'jest-axe' {
   export function axe(context?: ElementContext, options?: unknown): Promise<AxeResults>;
 
   // Matcher used with expect.extend(toHaveNoViolations)
-  export const toHaveNoViolations: any;
+  export const toHaveNoViolations: Record<string, unknown>;
 
   // Configure axe and get a pre-configured runner
   export function configureAxe(config?: unknown): typeof axe;

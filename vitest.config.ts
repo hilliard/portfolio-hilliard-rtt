@@ -18,15 +18,5 @@ export default defineConfig({
       '.git/**',
       'e2e/**',
     ],
-    // Avoid watching noisy folders
-    watchExclude: [
-      'node_modules/**',
-      'dist/**',
-      '.next/**',
-      'out/**',
-      'coverage/**',
-      '.git/**',
-      'e2e/**',
-    ],
   },
 })
