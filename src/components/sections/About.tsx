@@ -19,7 +19,7 @@ export default function About() {
       <div className="about-me__img relative z-10 shadow-[0.25em_0.25em_0.75em_rgba(0,0,0,0.25),0.125em_0.125em_0.25em_rgba(0,0,0,0.15)] md:col-start-2 md:row-start-1 md:row-end-4">
         <Image
           src="/img/Hilliard-Repelling-3rd-Flatiiron-480.jpg"
-          alt="Hilliard"
+          alt="Hilliard Repelling 3rd Flatiiron in Boulder"
           width={480}
           height={600}
           className="block max-w-full"

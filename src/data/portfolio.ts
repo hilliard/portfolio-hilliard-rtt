@@ -54,8 +54,8 @@ export const workItems: PortfolioItem[] = [
       "I am the founder of GoldTending Inc. and am currently serving as Chief Technical Advisor. I am also an acting Advisor to The University of Colorado Colorado Springs Artificial Intelligence board",
       "GoldTending Inc, was founded as both a technology consulting firm and as an entity focused on developing a platform for aspiring young entrepreneurs."
     ],
-    technologies: "Javascript, NextJS, Firebase, Supabase, OpenAI, Node.js, React, TypeScript, Vue.js",
-    tools: "ViTest, Jasmine, Anthropic, Netlify, Cloudflare, Anthropic, Tailwind CSS, Git, GitHub"
+    technologies: "JavaScript, Next.js, Firebase, Supabase, OpenAI, Node.js, React, TypeScript, Vue.js",
+    tools: "Vitest, Jasmine, Anthropic, Netlify, Cloudflare, Anthropic, Tailwind CSS, Git, GitHub"
   },
   {
     id: "03",
@@ -75,7 +75,7 @@ export const workItems: PortfolioItem[] = [
       "In this position, I was responsible for designing, developing, and executing comprehensive test plans and strategies. I excelled at identifying and documenting defects while collaborating closely with development and product teams throughout the entire software development lifecycle.",
       "My expertise in quality assurance methodologies and tools contributed to the continuous improvement of our testing processes. I also advocated for best practices and mentored junior QA team members, all while ensuring the robustness and reliability of SketchUp's innovative 3D modeling API."
     ],
-    technologies: "Ruby, C++, Javascript",
+    technologies: "Ruby, C++, JavaScript",
     tools: "Atlassian Suite, BitBucket, Git, GitHub, Visual Studio, RubyMine, Cypress, Sauce Labs, Postman, Minitest, Doxygen",
     additionalRoles: "Agile Scrum Master, Team Lead"
   },
@@ -96,7 +96,7 @@ export const workItems: PortfolioItem[] = [
       "As a QA Manager/Team Lead at a dynamic e-commerce affiliate sales company, I led a team of Quality Assurance engineers, overseeing the entire testing lifecycle for our affiliate marketing platform, merchant solutions, and consumer-facing products. I was responsible for defining and implementing robust QA strategies, building scalable test automation frameworks, and ensuring the delivery of high-quality, reliable software in a fast-paced, agile environment.",
       "This role required strong leadership skills to mentor and develop team members, excellent communication to collaborate cross-functionally with product and engineering teams, and a deep understanding of e-commerce business flows, affiliate marketing models, and performance testing to ensure seamless user experiences and transactional integrity."
     ],
-    technologies: "Ruby, Cucumber, Nutch, Java, Javascript, Apache Tomcat, AWS, Liquibase, Docker",
+    technologies: "Ruby, Cucumber, Nutch, Java, JavaScript, Apache Tomcat, AWS, Liquibase, Docker",
     tools: "Atlassian Suite, IntelliJ, NetBeans, Cypress, Sauce Labs, Postman, Doxygen, Zeus/Azul, Git, GitHub, BitBucket",
     additionalRoles: "Agile Scrum Master, Team Lead, Buildmeister"
   },
@@ -137,8 +137,8 @@ export const workItems: PortfolioItem[] = [
     contentImage: "/img/Nile-River-Pictures-Blue-3096.jpg",
     content: [
       "The Nile Basin Decision Support System (NB-DSS) is a platform developed by the Nile Basin Initiative (NBI) to facilitate cooperative planning and management of the Nile River's water resources by providing data, analytical tools, and modeling capabilities for Integrated Water Resources Management (IWRM). It serves as a central repository for data and offers advanced tools for scenario management, optimization, and multi-criteria decision-making, aiming to support riparian countries in reaching consensus on sustainable water resource development projects.",
-      "Over the three development cycles the specifications were refined. Each cycle was started with a detailed requirement analysis and software design stage, and during those stages the specifications were be detailed on a functionality area by functionality area basis. For example, specifications for time series handling was included in development cycle 1 while detailed specifications for multi-criteria analysis (MCA) was included in development cycle 3.",
-      "I Engineered and executed the migration of a core system to a PostgreSQL and Ubuntu Linux environment. This strategic shift away from proprietary Microsoft and Oracle solutions created a sustainable, self-supporting infrastructure while achieving substantial reductions in operational licensing costs."
+       "Over the three development cycles the specifications were refined. Each cycle was started with a detailed requirement analysis and software design stage, and during those stages the specifications were detailed on a functionality area by functionality area basis. For example, specifications for time series handling was included in development cycle 1 while detailed specifications for multi-criteria analysis (MCA) was included in development cycle 3.",
+       "I engineered and executed the migration of a core system to a PostgreSQL and Ubuntu Linux environment. This strategic shift away from proprietary Microsoft and Oracle solutions created a sustainable, self-supporting infrastructure while achieving substantial reductions in operational licensing costs."
     ],
     technologies: "MS Server, MSSQL, Unix, C++, .Net, Postgres, Ubuntu Linux, Access",
     tools: "SpiraTest Suite, Visual Studio, Visual Studio Code, MercurialHG, Windows Hardware Lab Kit (HLK), SignTool, WHQL (Windows Hardware Quality Labs)"
@@ -160,7 +160,7 @@ export const workItems: PortfolioItem[] = [
       "Benchmark Tape Systems a Boulder, Colorado-based enterprise, that developed tape drives products based on DLT technology. The team behind the new company includes the celebrated Jesse Aweida, founder and former COB and president of StorageTek and Lew Frauenfelder, a veteran of STK, Aspen and Datasonix,",
       "As Director of Software Configuration Management (SCM) and Build Meister, I led efforts in establishing and maintaining robust, efficient, and reliable software configuration and build processes. In this critical leadership role, I was responsible for defining and implementing SCM strategies, managing source code control systems, optimizing continuous integration/continuous delivery (CI/CD) pipelines, and ensuring repeatable and high-quality software builds for our customers."
     ],
-    technologies: "MS Server, MSSQL, PostgreSQL, OBDR, Unix, Linux,C++, .Net",
+    technologies: "MS Server, MSSQL, PostgreSQL, OBDR, Unix, Linux, C++, .Net",
     tools: "TrackStar, Visual Studio, TortoiseSVN, Windows Hardware Lab Kit (HLK), SignTool, WHQL (Windows Hardware Quality Labs)",
     additionalRoles: "Agile Scrum Master, Director IT, Software Configuration Manager",
     exit: "Quantum acquired Benchmark in 2002 for $56 million."
@@ -204,10 +204,10 @@ export const workItems: PortfolioItem[] = [
       "StorageTek a Boulder, CO-based enterprise, that developed tape drives products based on DLT technology. The team behind the company included the celebrated Jesse Aweida, founder and former COB and president of StorageTek and Lew Frauenfelder, a veteran of STK, Aspen and Datasonix. As Director of Software Configuration Management (SCM) and Build Meister, I led efforts in establishing and maintaining robust, efficient, and reliable software configuration and build processes. In this critical leadership role, I was responsible for defining and implementing SCM strategies, managing source code control systems, optimizing continuous integration/continuous delivery (CI/CD) pipelines, and ensuring repeatable and high-quality software builds for our customers.",
       "StorageTek, founded in 1969, was a global company that developed and manufactured data storage hardware and software."
     ],
-    technologies: "MS Server, MSSQL, LSTC2VM, HPu, Unix, Linux C++, .Net, ASP, ASP.NET, PHP, C#, Perl and VBScript",
+    technologies: "MS Server, MSSQL, LSTC2VM, HP-UX, Unix, Linux C++, .Net, ASP, ASP.NET, PHP, C#, Perl and VBScript",
     tools: "TrackStar, Atria, SourceSafe, Visual Studio, Windows Hardware Lab Kit (HLK), SignTool, WHQL (Windows Hardware Quality Labs)",
     additionalRoles: "Agile Scrum Master, Team Lead",
-    awards: "Technical Innovator of The Year. Malcom Baldridge Quality Award",
+    awards: "Technical Innovator of The Year. Malcolm Baldridge Quality Award",
     exit: "Sun Microsystems acquired Storage Technology Corporation (StorageTek) in August 2005 for US $4.1 billion."
   },
   {
@@ -249,7 +249,7 @@ export const workItems: PortfolioItem[] = [
     contentTitle: "Site Engineer/Program Director",
     contentImage: "/img/KGNU-On-Air-3096.png",
     content: [
-      "At KGNU Community Radio I was able to fill the unique, combined role of Page Engineer & Program Director. In this leadership position, I was responsible for both the technical integrity of our broadcast signal and the creative vision of the on-air programming.",
+      "At KGNU Community Radio I was able to fill the unique, combined role of Site Engineer & Program Director. In this leadership position, I was responsible for both the technical integrity of our broadcast signal and the creative vision of the on-air programming.",
       "I acted as an advocate for independent media and possessed a blend of technical expertise and a strong sense of community-focused content curation. I was responsible for ensuring KGNU’s broadcast was reliable and high-quality while also guiding the volunteer programmers to create content that fulfilled the mission to educate, entertain, and serve as a platform for underrepresented voices and music."
     ],
     skills: [
@@ -350,7 +350,7 @@ export const playItems: PortfolioItem[] = [
     contentTitle: "Site Engineer/Program Director",
     contentImage: "/img/KGNU-On-Air-3096.png",
     content: [
-      "At KGNU Community Radio I was able to fill the unique, combined role of Page Engineer & Program Director. In this leadership position, I was responsible for both the technical integrity of our broadcast signal and the creative vision of the on-air programming.",
+      "At KGNU Community Radio I was able to fill the unique, combined role of Site Engineer & Program Director. In this leadership position, I was responsible for both the technical integrity of our broadcast signal and the creative vision of the on-air programming.",
       "I acted as an advocate for independent media and possessed a blend of technical expertise and a strong sense of community-focused content curation. I was responsible for ensuring KGNU’s broadcast was reliable and high-quality while also guiding the volunteer programmers to create content that fulfilled the mission to educate, entertain, and serve as a platform for underrepresented voices and music."
     ],
     skills: [
