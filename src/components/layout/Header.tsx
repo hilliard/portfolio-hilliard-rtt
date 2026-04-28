@@ -17,18 +17,18 @@ export default function Header() {
 
   return (
     <header className="flex justify-between p-4 relative z-50">
-      <div className="logo max-w-[100px]">
-        <Link href="/">
-          <Image
-            src="/img/hilliard-logo4.png"
-            alt="logo"
-            width={100}
-            height={50}
-            className="w-full h-auto"
-            style={{ width: "100%", height: "auto" }}
-          />
-        </Link>
-      </div>
+    <div className="logo max-w-[100px]">
+      <Link href="/">
+        <Image
+          src="/img/hilliard-logo4.png"
+          alt="logo"
+          loading="eager"
+          width={100}
+          height={50}
+          style={{ height: '20px', width: 'auto' }} // This bypasses Tailwind to silence the warning
+        />
+      </Link>
+    </div>
       <button
         className={`nav-toggle p-2 bg-transparent border-0 cursor-pointer absolute right-4 top-4 z-[1000] ${isNavOpen ? "fixed" : "absolute"
           }`}
