@@ -28,7 +28,7 @@ export default function Home() {
           items={playItems}
         />
         <PortfolioGrid
-          title="My Certifications"
+          title="My Recent Certifications"
           subtitle="Classes I Recently Completed"
           id="certs"
           items={certItems}

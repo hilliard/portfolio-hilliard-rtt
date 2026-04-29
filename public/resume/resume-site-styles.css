@@ -1,0 +1,2 @@
+/* This file allows you to use the same global styles from your Next.js app in your static HTML resume. */
+@import url('../../src/app/globals.css');

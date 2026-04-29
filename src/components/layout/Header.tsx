@@ -65,17 +65,8 @@ export default function Header() {
             >
               What I Do
             </Link>
-          </li>
-          <li className="nav__item">
-            <Link
-              href="/#about"
-              className="nav__link text-inherit font-bold text-4xl no-underline hover:text-accent"
-              onClick={closeNav}
-            >
-              Who I Am
-            </Link>
-          </li>
-          <li className="nav__item">
+           </li>
+           <li className="nav__item">
             <Link
               href="/#work"
               className="nav__link text-inherit font-bold text-4xl no-underline hover:text-accent"
@@ -92,17 +83,27 @@ export default function Header() {
             >
               My Play
             </Link>
-          </li>
-          <li className="nav__item">
-            <Link
-              href="/contact"
-              className="nav__link text-inherit font-bold text-4xl no-underline hover:text-accent"
-              onClick={closeNav}
-            >
-              Contact
-            </Link>
-          </li>
-        </ul>
+           </li>
+           <li className="nav__item">
+             <Link
+               href="/#certs"
+               className="nav__link text-inherit font-bold text-4xl no-underline hover:text-accent"
+                onClick={closeNav}
+             >
+               My Recent Certifications
+             </Link>
+           </li>
+           <li className="nav__item">
+             <Link
+               href="/contact"
+               className="nav__link text-inherit font-bold text-4xl no-underline hover:text-accent"
+               onClick={closeNav}
+             >
+               Contact
+             </Link>
+           </li>
+          
+         </ul>
       </nav>
     </header>
   );

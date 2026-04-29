@@ -3,7 +3,6 @@ export default function Services() {
     <section
       className="my-services bg-dark text-light text-center py-20 px-8 bg-cover bg-center bg-no-repeat"
       id="services"
-      style={{ backgroundImage: "url(/img/services-bg.jpg)" }}
     >
       <h2 className="section__title section__title--services text-accent relative text-4xl md:text-6xl mb-5 after:content-[''] after:block after:w-8 after:h-[1px] after:mx-auto after:my-4 after:bg-light after:opacity-25">
         What I Do
@@ -45,7 +44,7 @@ export default function Services() {
           href="#certs"
           className="btn inline-block py-2 px-10 bg-accent text-dark no-underline cursor-pointer text-sm uppercase tracking-[2px] font-black transition-transform duration-200 ease-in-out hover:scale-110"
         >
-          My Certifications
+          My Certs
         </a>
       </div>
     </section>
